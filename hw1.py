@@ -65,5 +65,7 @@ print  ((hw1_test.a and hw1_test.b) or (not hw1_test.c) and not (hw1_test.d or h
 ###
 
 # ... Write how long this assignment took you, including doing all the readings
+    # homework took me 2hours to complete. it would have been alot harder but toutor Kahea was very helpful helping me. 
 # ... and tutorials linked to from the homework page. Did the readings, tutorials,
 # ... and lecture contain everything you needed to complete this assignment?
+# Yess it was very helpful. And the instructions where on point
