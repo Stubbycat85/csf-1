@@ -1,0 +1,40 @@
+Name: Haron Yunis
+Evergreen Login:yunhar04
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+Haron Yunis
+
+Problem 2:
+GC-content: 0.43029262963
+...
+
+Problem 3:It came out as an error beacuse every variable needs a value for the sequence to work. Taking out the vaules using # made the information run as undefined. 
+This happened for all sequence in the text seq, gc_count and linenum
+
+Problem 4:
+
+...
+
+Collaboration:
+My patner on this assignment was Ahmed Ali. 
+...
+
+Reflection:
+This assignment thought me that a large amount of data can be run at the same time by 
+my terminal and editing a file on python can change the output of such file. this assignment took 
+me longer than should have all beacuse of one word that i misspelled. My advise to fututre students is to slow down when typing 
+and not be like me because one letter can be a big difference when writing code.
+...
