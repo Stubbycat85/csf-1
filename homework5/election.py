@@ -30,14 +30,25 @@ def row_to_edge(row):
     return float(row["Dem"]) - float(row["Rep"])  
 
 def state_edges(election_result_rows):
+    
     """
     Given a list of election result rows, returns state edges.
     The input list does has no duplicate states;
     that is, each state is represented at most once in the input list.
     """
-    #TODO: Implement this function
-    pass
+   
+    #response = []
 
+    #for row in election_result_rows:
+        #response.append({row["State"]: row_to_edge(row)})
+    #print response
+    #return response 
+    
+    edge = {}
+    for row in election_result_rows:
+       edge = {row["State"]: row_to_edge(row)}
+       print edge
+       return edge   
 
 ################################################################################
 # Problem 2: Find the most recent poll row
@@ -245,15 +256,15 @@ def main():
     prediction_2012 = predict_state_edges(polls_2012, error_2008)
     
     # Obtain the 2012 Electoral College outcome
-    ec_2012 = electoral_college_outcome(read_csv("data/2012-electoral-college.csv"),
-                                        prediction_2012)
+    #ec_2012 = electoral_college_outcome(read_csv("data/2012-electoral-college.csv"),
+                                        #prediction_2012)
     
     print "Predicted 2012 election results:"
-    print_dict(prediction_2012)
+    #print_dict(prediction_2012)
     print
     
     print "Predicted 2012 Electoral College outcome:"
-    print_dict(ec_2012)
+    #print_dict(ec_2012)
     print    
 
 
