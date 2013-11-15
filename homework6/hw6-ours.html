@@ -1,53 +1,123 @@
+<html>
 
-<!-- saved from url=(0056)http://ada.evergreen.edu/csf/python13f/web/hw6-ours.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<head>
 <title>Homework 6 Problems: Group 6</title>
 </head>
 
 <body>
 
 <h1>
-Programming as a Way of Life<br>
+Programming as a Way of Life<br/>
 Homework 6 Problems
 </h1>
 
 <h2>
-Group 6 <!-- replace xx with your group number --><br>
-Haron Yunis  <!-- replace with the name of your first group member --> <br>
-Jessica Morton <!-- replace with the name of your first group member --> <br>
-
+Group 6 <br/>
+Jessica Morton <br/>
+Haron Yunis <br/>
 </h2>
 
 <h3>
-Problem 3 (Concept Title)
+Problem 3: For Loops
 </h3>
 
-<!-- Add the text of your problem 3 here -->
+Python provides the <b>for loop</b> that can be used to simplify programs that 
+contain iteration. It is a simpler way to use iteration than using while loops.<br/>
+The general form of a <tt>for</tt> statement is:
+<blockquote><code>
+for <i>variable</i> in <i>sequence</i>:<br/>
+<i>code block</i>
+</code></blockquote>
+
+Given the string <tt>"Python Is A Great Programming Language!"</tt>, write 
+Python code using <tt>for</tt> loops and <tt>if</tt> statements to print out 
+the number of vowels and constants in the string.
 
 <h3>
-Problem 4 (Concept Title)
+Problem 4: Creating Lists
 </h3>
 
-<!-- Add the text of your problem 4 here -->
+A list is an ordered sequence of values, where each value is identified by an 
+index. A list can contain values of any type. An empty list is written as 
+<tt>[]</tt>.</br>
+For example, the code,<br/>
+<blockquote><code>
+myList = [1, 2, 3]<br/>
+print myList
+</code></blockquote>
+produces the output,
+<blockquote><code>
+[1, 2, 3]
+</code></blockquote>
+
+Create a list containing the values <tt>1, 2.2, 3, 4.2</tt>. Then write Python 
+code using a loop, that prints out each element in the list and prints out the 
+average value of all of the elements within the list.
 
 <h3>
-Problem 5 (Concept Title)
+Problem 5: List Appending
 </h3>
 
-<!-- Add the text of your problem 5 here -->
+Python provides methods that operate on lists. For example, <tt>append</tt> will 
+add a new item to the end of a list.<br/>
+For example, the code,<br/>
+<blockquote><code>
+list1 = ["a", "b", "c"]<br/>
+list2 = ["d", "e"]<br/>
+list3 = list1 + list2<br/>
+<br/>
+list1.append(list2)<br/>
+print list3<br/>
+print list1<br/>
+</code></blockquote>
+produces the output,
+<blockquote><code>
+['a', 'b', 'c', 'd', 'e']<br/>
+['a', 'b', 'c', ['d', 'e']]
+</code></blockquote>
+
+Create another list containing the values <tt>5.2, 6.8, 7.5</tt>. Add your new 
+list to the list that you created in Problem 4 and print out the new average.
+You may use the built in <tt>sum</tt> function.
 
 <h3>
-Problem 6 (Concept Title)
-</h3>
+Problem 6: List Indexing
+</h3> Python allows you to choose specific values with in a list. <br/>
+For example we will use the list from problem 4.
+<blockquote><code>
+mylist = [1,2,3]<br/>
+print mylist[1]<br/>
+</code></blockquote>
+produces the output
+<blockquote><code>
+[2]
+</code></blockquote>
+Create a list containing these elements <tt>Yellow, Red, Blue, Purple, Green</tt>, 
+and write python code to print out all of the elements in the list
+<br/>Then use the index operator to access and print the third element.  
 
-<!-- Add the text of your problem 6 here -->
+
+
+
 
 <h3>
-Problem 7 (Concept Title)
+Problem 7: Creating a Dictionary
 </h3>
+A <b>dictionary</b> is like a list, but the indices can be almost any type unlike a list. 
+A dictionary is a collection of key-value pairs. A key and its value are separated by 
+a colon. And the key value pairs are separated by commas. The key and value pairs are 
+listed between curly brackets "{}". 
+<br/><br/>
+Create a dictionary containing all the months in the year. Set the keys according to 
+the months number in the year. <br/>For example, <tt>months[1-12]</tt> are the keys and 
+<tt>January-December</tt> are the values.
+<br/><br/> Print out each element with its key and value using a loop.
 
-<!-- Add the text of your problem 7 here -->
+
+ 
 
 
 
-</body></html>
+</body>
+
+</html>
