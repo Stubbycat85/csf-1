@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Names: Haron Yunis & Jessica Morton
+# Evergreen Logins: morjes14 & yunhar04
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 6
@@ -17,9 +17,17 @@
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+def areaRectangle(w,h):
+    area = w * h
+    return area
 
+w = 10
+h = 5
+myArea = areaRectangle(w,h)
 
+print "Rectangle with width =", w, "height =", h, "has the area of", myArea
+
+print
 ###
 ### Problem 4
 ###
@@ -27,9 +35,28 @@ print "Problem 3 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+w = 10
+h = 2
+myArea1 = areaRectangle(w,h)
+print myArea1
 
+w = 10
+h = 3
+myArea2 = areaRectangle(w,h)
+print myArea2
 
+w = 10
+h = 4
+myArea3 = areaRectangle(w,h)
+print myArea3
+
+areaDic = { 1:myArea1,
+            2:myArea2,
+            3:myArea3}
+            
+print areaDic
+
+print
 ###
 ### Problem 5
 ###
@@ -37,8 +64,10 @@ print "Problem 4 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+for key in areaDic:
+    print "Key:", key, "Area:", areaDic[key]
 
+print
 ###
 ### Problem 6
 ###
@@ -46,8 +75,10 @@ print "Problem 5 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+for key, value in areaDic.iteritems():
+    print "Key:", key, "Area:", value
 
+print
 ###
 ### Problem 7
 ###
@@ -55,11 +86,21 @@ print "Problem 6 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 7 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+def sumNums(n):
+    sum = 0
+    for i in range(n+1):
+        sum = sum + i
+    return sum
 
+myTotal = 0
+n = 5
+for i in range(n+1):
+    myTotal = sumNums(n)
+    
+print "The Sum of numbers in range %d " %n + "= %d" %myTotal
+
+print
 ###
 ### Collaboration
-###
-
-# ... List your collaborators and other sources of help here (websites, books, etc.),
-# ... as a comment (on a line starting with "#").
+###http://www.pythonforbeginners.com/
+# http://stackoverflow.com/questions/12964460/adding-numbers-in-a-range-with-for-loop

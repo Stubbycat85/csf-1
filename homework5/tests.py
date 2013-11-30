@@ -1,5 +1,5 @@
 # CSE 140
-# Tests for Homework 3: Election prediction
+# Tests for Homework 5: Election prediction
 
 # You do not have to turn in this file.
 # You will modify this file by uncommenting lines at its very end, bit by
