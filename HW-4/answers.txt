@@ -39,6 +39,14 @@ problem 5
           c_count = c_count + 1
     if bp == 'T':
          t_count = t_count +1   
+    if bp == 'A': 
+          a_count = a_count + 1
+    if bp == 'G':
+         g_count = g_count +1 
+
+
+
+
 sum_count = gc_count + at_count   
 # divide the gc_count by the total_count
 gc_content = float(gc_count) / total_count
@@ -49,6 +57,8 @@ print 'GC-content:', gc_content
 print 'AT-content:', at_content
 print "c_count:" , c_count
 print "t_count:" , t_count
+print "a_count:" , a_count
+print "g_count:" , g_count
 print "Sum_count:", sum_count
 print "Total_count:", total_count
 print "seq_length:", seq_length
@@ -59,7 +69,7 @@ print "GC_Classification:", GC_Classification
 Test High 1 and Test high 2 are different 
 Test high 1 total = 11800
 Test high 2 total = 40000
- They also differ in sum amounts too
+ They also different in sum amounts too beacuse of an extra variable that was not used in calculating sum which is n
 
 Test Moderate 1 and 2 differ in sum amount
 1 is sum = 39841
