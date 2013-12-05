@@ -25,8 +25,9 @@ Problem 3:It came out as an error beacuse every variable needs a value for the s
 This happened for all sequence in the text seq, gc_count and linenum
 
 Problem 4:
+GC -content: 0.43029262963
+AT -content: 0.5689938518852
 
-...
 problem 5
 # next, if the bp is a G or a C,
     if bp == 'C' or bp == 'G':
